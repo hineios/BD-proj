@@ -1,0 +1,186 @@
+/* --------------------------------------------------------
+	webservice css
+	made by: Bruno Monteiro (GAEL)
+	date: 20.03.2006
+---------------------------------------------------------*/
+
+body {
+	font: 14px "Lucida Grande", "Lucida Bright", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	background:#fff url("http://web.ist.utl.pt/info/images/webpages-header_bck.gif") repeat-x left top;
+}
+
+h1 {
+	text-indent: -9999px;
+	width: 234px;
+	margin: 0;
+	padding: 0;
+}
+
+h1 a:link, h1 a:visited, h1 a:hover {
+	background: url("http://www.ist.utl.pt/img/wwwist.gif") no-repeat top left;
+	width: 234px;
+	height: 51px;
+	display: block;
+	text-decoration: none;
+	border: none;
+	overflow: hidden;
+}
+
+h2 {
+	font: 2.8em Arial, "Lucida Grande", "Lucida Bright", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #A2AEBC;
+	/* color: #0062af; */
+	letter-spacing: -1px;
+}
+
+h3 {
+	font: 16pt "Lucida Grande", "Lucida Bright", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #A2AEBC;}
+
+table{
+line-height: 1.5em;
+}
+
+
+a{
+-moz-transition: all 0.15s ease 0s;
+}
+
+#container {
+ 	position: relative;
+ 	width: 400px;
+ 	margin: 0 auto;
+}
+
+#wrapper {
+	float: left;
+	position: absolute;	
+	top: 200px;
+}
+
+#wrapper p {
+	font: 1.1em/1.5em "Lucida Grande", "Lucida Bright", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+}
+
+
+#latnav_container{
+width: 200px;
+margin: 0pt;
+padding: 0pt;
+background: none repeat scroll 0% 0% rgb(245, 246, 247);
+white-space: normal;
+vertical-align: top;
+float:left;
+}
+
+#latnav{
+
+}
+
+#latnav ul{
+width: 200px;
+margin: 0pt;
+padding: 0pt;
+list-style-type: none;
+list-style-image: none;
+list-style-position: outside;
+}
+
+#latnav li a{
+display: block;
+padding: 8px 5px 8px 10px;
+color: rgb(056, 056, 056);
+font-size: 14px;
+text-decoration: none;
+line-height: 1.3em;
+}
+
+#latnav li a:hover, #latnav li a.menu-top-item-selected + ul a:hover{
+color: rgb(255, 255, 255);
+background: none repeat scroll 0% 0% rgb(25, 156, 216);
+}
+
+#latnav li a.menu-top-item-selected{
+color: rgb(255, 255, 255);
+background: none repeat scroll 0% 0% rgb(25, 156, 216);
+}
+
+#tabela_boleias {
+margin: 1em 0pt;
+border: 1px solid;
+padding: 1px;
+}
+
+#tabela_boleias td {
+background-color: rgb(245, 246, 247);
+border: 1px solid;
+text-align: left;
+padding: 5px;
+}
+
+#tabela_boleias th {
+background-color: rgb(204, 204, 204);
+font-weight: bold;
+text-align: center;
+padding: 5px;
+}
+#main_container{
+
+}
+#main { 
+padding-left: 230px;
+}
+
+.skipnav {
+	display: none;
+}
+	
+.username {
+	font-weight: bold;
+	color: #45556A;
+}
+
+.info {
+	background: url("http://web.ist.utl.pt/info/images/webpages-icon_info.gif") no-repeat 0 50%;
+	padding-left: 2em;
+}
+
+.button{
+	border: 1px solid #AAA;
+	background-color: #E9E9E9;
+	text-decoration: none;
+	color: #333;
+	border-radius: 3px;
+	font: 12px "Lucida Grande", "Lucida Bright", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	float:left;
+	margin: 0 5px 0 0;
+}
+a.button{
+	height: 17px;
+	line-height: 19px;
+	padding: 2px 7px;
+}
+input.button{
+	height:23px;
+	padding: 2px 5px;
+}
+.error{
+	font-size:11px;
+	color:#cc0000;
+	margin-top:10px
+}
+
+
+.mtop{
+margin-top: 0pt;
+}
+
+.mbottom03{
+margin-bottom: 5px;
+}
+
+.cnone{
+clear: none;
+}
